@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BFPaperCheckbox.h"
+#import "UIColor+BFPaperColors.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource, UIScrollViewDelegate, UITextFieldDelegate>
 
 @end
